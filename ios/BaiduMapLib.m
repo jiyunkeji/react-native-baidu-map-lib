@@ -19,7 +19,7 @@ RCT_EXPORT_MODULE()
 
 - (NSArray<NSString *> *)supportedEvents
 {
-  return @[OnGetCurrentLocation];
+  return @[OnGetCurrentLocation,OnError,OnCheckPermissionState];
 }
 
 RCT_EXPORT_METHOD(initSDK:(NSString *)ak

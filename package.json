@@ -1,6 +1,6 @@
 {
   "name": "react-native-baidu-map-lib",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "baidu map",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
